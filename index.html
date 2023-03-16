@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Search GitHub</title>
+</head>
+
+<body>
+
+  <section class="search">
+    <form class="search__form">
+      <input type="text" name="title" class="search__textfield" placeholder="Искать в GitHub" />
+      <button type="submit" class="search__button">
+        Найти
+      </button>
+    </form>
+    <div class="search__result">
+      <h2 class="search__findings">
+      </h2>
+      <ul class="search__findings-list">
+      </ul>
+    </div>
+    <div class="search__error">
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
